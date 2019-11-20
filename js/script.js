@@ -19,8 +19,8 @@ if(sign > .6){
 }else if(sign > 0){
  $("#computerChoice").text("Scissor");
 
-if("#userChoice" === "Scissor" && "#computerChoice" === "Paper"){
-    alert("");
+if($(#userChoice)=== "Scissor" && #computerChoice === "Paper"){
+    alert("USER WINNER!!!");
 }
 
 
