@@ -6,16 +6,26 @@
 /* global $ */
  $("#shoot").click(function(){
  $("#userChoice").text($("#input").val());
-})
+
+// look at User choice on screen
 var sign = Math.random();
-var choice=[Rock,Scissor,Paper];
-/*if(sign > .6){
- ("Rock");
+// leave alone
+
+
+if(sign > .6){
+ $("#computerChoice").text("Rock");
 }else if(sign > .3){
-("Paper");
-}else (sign > 0)
-("Scissor");
-;
-/*
+ $("#computerChoice").text("Paper");
+}else if(sign > 0){
+ $("#computerChoice").text("Scissor");
+
+if("#userChoice" === "Scissor" && "#computerChoice" === "Paper"){
+    alert("");
+}
+
+
+}});
+
+
 // DOCUMENT READY FUNCTION BELOW
 
